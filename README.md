@@ -1,1 +1,0 @@
-# Resta-Gustina-09011282328110-Sistem-Operasi_Praktikum3
