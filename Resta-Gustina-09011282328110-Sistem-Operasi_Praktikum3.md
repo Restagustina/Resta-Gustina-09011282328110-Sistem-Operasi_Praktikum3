@@ -19,7 +19,11 @@
      <img width ="500" alt="1 e" src="https://github.com/user-attachments/assets/3d54722e-11a8-400a-b232-72198ed21b98">
      #### Penjelasan :
 
-     
+2. Buatlah sub direktori januari, februari dan maret sekaligus pada direktori latihan5\
+     <img width ="500" alt="2 Buat sub direktori januari, februari dan maret" src="https://github.com/user-attachments/assets/b962c732-7a3c-42c6-971e-2767f5147428"> 
+     #### Penjelasan :
+   Untuk membuat subdirektori januari, februari, dan maret secara bersamaan pada direktori latihan5 di command line, Anda dapat menggunakan perintah mkdir dengan opsi -p untuk membuat direktori yang tidak ada dan membuatnya secara bersamaan. Pada perintah mkdir, opsi -p digunakan untuk membuat direktori yang secara bersamaan.
+
 
 <br>
 <br>
