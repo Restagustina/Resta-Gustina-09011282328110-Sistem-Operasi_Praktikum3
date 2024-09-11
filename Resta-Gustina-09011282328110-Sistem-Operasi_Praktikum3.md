@@ -26,18 +26,11 @@ NIM : 09011282328110
 </div>
 
 1. Lihat peralatan I/O, character device, yang ada pada system komputer
-   - Melihat block device (peralatan I/O)\
-     <img width ="500" alt="1 a" src="https://github.com/user-attachments/assets/2543cd6d-c4ef-4e02-97af-8b812457bf87"> 
-   - Melihat character device (peralatan I/O) \
-     <img width ="500" alt="1 b" src="https://github.com/user-attachments/assets/b814242f-1109-4324-a7d4-56bbf272f5af">
-   - Melihat \
-     <img width ="500" alt="1 c" src="https://github.com/user-attachments/assets/246a12fa-d9f7-4358-a312-7cf03767a295"> 
-   - Melihat direktori \
-     <img width ="500" alt="1 d" src="https://github.com/user-attachments/assets/4126406e-e945-4ab2-9803-6a659ad848df"> 
-   - Melihat ordinary file \
-     <img width ="500" alt="1 e" src="https://github.com/user-attachments/assets/3d54722e-11a8-400a-b232-72198ed21b98">
+     <img width ="500" alt="1 ls -l  dev" src="https://github.com/user-attachments/assets/075f4e26-81f7-46bb-81e1-21491d823a8e">
      
      #### Penjelasan :
+   - Jalankan perintah `ls -l /dev` untuk menampilkan daftar file dan direktori di dalam folder `/dev/`, termasuk perangkat I/O yang menggunakan character device.
+   - Perintah ls -l /dev/tty0 untuk melihat informasi detail tentang perangkat /dev/tty0, yang merupakan contoh perangkat I/O yang menggunakan character device.
 
 <br>
 
@@ -122,6 +115,7 @@ februari
 10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ?
     
     <img width ="500" alt="10" src="https://github.com/user-attachments/assets/f5e80a63-5e7c-4958-b592-a8cb6aab06c5">
+   >
     - Gunakan perintah ln untuk membuat link simbolik dan hard link
     - ln -s dataku dataku.ini  # Membuat link simbolik
     - ln dataku dataku.j  # Membuat link hard
