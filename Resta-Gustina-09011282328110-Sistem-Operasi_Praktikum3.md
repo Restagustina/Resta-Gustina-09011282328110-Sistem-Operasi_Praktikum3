@@ -39,11 +39,12 @@ NIM : 09011282328110
      <img width ="500" alt="2 Buat sub direktori januari, februari dan maret" src="https://github.com/user-attachments/assets/b962c732-7a3c-42c6-971e-2767f5147428"> 
      
      #### Penjelasan :
-   > Untuk membuat subdirektori januari, februari, dan maret secara bersamaan pada direktori latihan5, dapat menggunakan perintah mkdir dengan opsi -p. Opsi -p digunakan untuk membuat direktori yang sama secara bersamaan.
+   >
+    Membuat subdirektori januari, februari, dan maret secara bersamaan pada direktori latihan5 gunakan perintah mkdir dengan opsi -p.
 <br>
 
 3. Buatlah file dataku yang berisi nama, nim dan alamat anda pada sub direktori januari dan copy-kan file tersebut ke sub direktori februari dan maret
-- Buat file dataku berisi nama, nim dan alamat :
+     - Buat file dataku berisi nama, nim dan alamat :
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
@@ -61,9 +62,9 @@ NIM : 09011282328110
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
 
-> - Gunakan perintah chmod dengan opsi yang sesuai untuk memberikan hak write kepada grup dan orang lain. 
-> - g+w: Memberikan hak write kepada grup. 
-> - o+w: Memberikan hak write kepada orang lain.
+     > - Gunakan perintah chmod dengan opsi :
+     > - g+w: Memberikan hak write kepada grup. 
+     > - o+w: Memberikan hak write kepada orang lain.
      <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
 > - Verifikasi Hak Akses gunakan perintah ls -l
