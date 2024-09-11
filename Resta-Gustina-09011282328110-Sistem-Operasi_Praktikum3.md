@@ -75,9 +75,9 @@ NIM : 09011282328110
    <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
    
   #### Penjelasan Opsi chmod :
-          > - u=rwx: Memberikan hak read, write, dan execute kepada user.
-          > - g=r: Memberikan hak read kepada grup.
-          > - o=r: Memberikan hak read kepada orang lain.
+          >  u=rwx: Memberikan hak read, write, dan execute kepada user.
+          >  g=r: Memberikan hak read kepada grup.
+          >  o=r: Memberikan hak read kepada orang lain.
      
    > - Verifikasi Hak Akses gunakan perintah ls -l
 <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
@@ -89,9 +89,9 @@ NIM : 09011282328110
    
    #### Penjelasan Opsi chmod :
       
-          > - u=rwx: Memberikan hak read, write, dan execute kepada user.
-          > - g=rwx: Memberikan hak read, write, dan execute kepada grup.
-          > - o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
+          >  u=rwx: Memberikan hak read, write, dan execute kepada user.
+          >  g=rwx: Memberikan hak read, write, dan execute kepada grup.
+          >  o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
 
 <br>
 7. Hapuslah direktori maret
