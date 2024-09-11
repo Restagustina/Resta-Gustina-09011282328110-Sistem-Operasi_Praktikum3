@@ -94,8 +94,10 @@ NIM : 09011282328110
           >  o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
 
 <br>
-7. Hapuslah direktori maret \
+7. Hapuslah direktori maret
+
      - perintah 'rmdir' untuk menghapus direktori kosong atau perintah rm -r untuk menghapus direktori beserta isinya.
+     
    <img width ="500" alt="7 rm directory maret" src="https://github.com/user-attachments/assets/b35c2712-9552-4d04-aafb-a438c2d80682">
 
 <br>
@@ -107,6 +109,7 @@ NIM : 09011282328110
 <br>
 <br>
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ? 
+
      Penjelasan :
     
      - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute. 
