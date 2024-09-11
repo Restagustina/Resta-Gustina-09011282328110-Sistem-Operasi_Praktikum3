@@ -66,9 +66,9 @@ NIM : 09011282328110
      > Setelah menjalankan perintah di atas, Anda akan memiliki file dataku di subdirektori januari, februari, dan maret.
 
         > ## Untuk melihat isi file dataku gunakan'cat' :
-         >- cd januari\
-        cat dataku
-         >- lakukan hal yang sama untuk februari dan maret ## >
+         > - cd januari\
+             cat dataku\
+         > - lakukan hal yang sama untuk februari dan maret ## >
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.\
