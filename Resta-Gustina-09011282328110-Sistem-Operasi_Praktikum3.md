@@ -54,7 +54,7 @@ NIM : 09011282328110
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
-    > simbol > dan >> memiliki fungsi yang berbeda :\
+    #### > simbol > dan >> memiliki fungsi yang berbeda :\
     > : > digunakan untuk menulis output dari perintah ke sebuah file. Jika file tersebut belum ada, maka perintah akan membuatnya. Jika file sudah ada, maka konten lama file akan dihapus dan digantikan dengan output dari perintah.\
    Contoh : echo "Nama : Resta Gustina" > dataku akan membuat file 'dataku' dengan isi "Nama : Resta Gustina".
     > 
@@ -73,9 +73,9 @@ NIM : 09011282328110
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.\
-> - Gunakan perintah chmod dengan opsi yang sesuai untuk memberikan hak write kepada grup dan orang lain.\
-> - g+w: Memberikan hak write kepada grup.\
-> - o+w: Memberikan hak write kepada orang lain. 
+>- Gunakan perintah chmod dengan opsi yang sesuai untuk memberikan hak write kepada grup dan orang lain.\
+>- g+w: Memberikan hak write kepada grup.\
+>- o+w: Memberikan hak write kepada orang lain. 
      <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
   > - Verifikasi Hak Akses gunakan perintah ls -l
