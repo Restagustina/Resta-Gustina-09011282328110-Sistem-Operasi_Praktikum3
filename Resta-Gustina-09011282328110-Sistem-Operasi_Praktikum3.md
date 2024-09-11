@@ -68,7 +68,7 @@ NIM : 09011282328110
         > ## Untuk melihat isi file dataku gunakan'cat' :
          >- cd januari\
         cat dataku
-         >- lakukan hal yang sama untuk februari dan maret
+         >- lakukan hal yang sama untuk februari dan maret ## >
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.\
