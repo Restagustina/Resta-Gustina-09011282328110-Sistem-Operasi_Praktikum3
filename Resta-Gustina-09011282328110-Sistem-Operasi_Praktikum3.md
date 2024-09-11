@@ -106,7 +106,7 @@ NIM : 09011282328110
 
 <br>
 <br>
-9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ? \
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ? 
     ## Penjelasan : 
      - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute. 
      - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
@@ -121,7 +121,6 @@ NIM : 09011282328110
     
    <img width ="500" alt="10" src="https://github.com/user-attachments/assets/f5e80a63-5e7c-4958-b592-a8cb6aab06c5">
     
-        >
          - Gunakan perintah ln untuk membuat link simbolik dan hard link
          - ln -s dataku dataku.ini  # Membuat link simbolik
          - ln dataku dataku.j  # Membuat link hard
