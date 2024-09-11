@@ -68,7 +68,7 @@ NIM : 09011282328110
     <img width ="500" alt="akses januari rw" src="https://github.com/user-attachments/assets/14f49fdd-2608-4fea-a453-f3886089407c">
 
 <br>
-5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.
+5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.\
 
    <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
    
