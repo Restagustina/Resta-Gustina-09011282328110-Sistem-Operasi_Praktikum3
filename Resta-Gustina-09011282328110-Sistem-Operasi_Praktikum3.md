@@ -66,10 +66,10 @@ NIM : 09011282328110
   
      > Setelah menjalankan perintah di atas, Anda akan memiliki file dataku di subdirektori januari, februari, dan maret.
 
-        > ## Untuk melihat isi file dataku gunakan'cat' :
-         > - cd januari\
-             cat dataku\
-         > - lakukan hal yang sama untuk februari dan maret ## >
+        > #### Untuk melihat isi file dataku gunakan'cat':
+         > - cd januari
+             cat dataku
+         > - lakukan hal yang sama untuk februari dan maret 
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write. \
@@ -82,25 +82,36 @@ NIM : 09011282328110
     <img width ="500" alt="akses januari rw" src="https://github.com/user-attachments/assets/14f49fdd-2608-4fea-a453-f3886089407c">
 
 5. Ubahlah ijin akses file dataku pada sub direktori pebruari sehingga user dapat 
-melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute. 
-   <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
+melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.
 
+   <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
+> #### Penjelasan Opsi chmod :
+> - u=rwx: Memberikan hak read, write, dan execute kepada user.
+> - g=r: Memberikan hak read kepada grup.
+> - o=r: Memberikan hak read kepada orang lain.
+
+> - Verifikasi Hak Akses gunakan perintah ls -l
    <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
 
 6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat 
 melakukan write, read dan execute.
    <img width ="500" alt="4 akses maret" src="https://github.com/user-attachments/assets/ee236a40-08ca-43df-bcf2-d8e7c0cce104">
+> #### Penjelasan Opsi chmod :
+> - u=rwx: Memberikan hak read, write, dan execute kepada user.
+> - g=rwx: Memberikan hak read, write, dan execute kepada grup.
+> - o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
 
-7. Hapuslah direktori maret
+7. Hapuslah direktori maret/
+   > perintah 'rmdir' untuk menghapus direktori kosong atau perintah rm -r untuk menghapus direktori beserta isinya.
    <img width ="500" alt="7 rm directory maret" src="https://github.com/user-attachments/assets/b35c2712-9552-4d04-aafb-a438c2d80682">
 
-8. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat 
+9. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat 
 melakukan read, dan cobalah untuk membuat direktori baru haha pada sub direktori 
 februari
 
    <img width ="500" alt="no 8" src="https://github.com/user-attachments/assets/cf0ab9c0-c7b1-4ccd-a735-23adb2554c15">
 
-9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
+10. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
 
 
      
