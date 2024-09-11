@@ -119,6 +119,13 @@ februari
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
    - nilai umask 027 berarti bahwa file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
+10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ?
+    
+    <img width ="500" alt="10" src="https://github.com/user-attachments/assets/f5e80a63-5e7c-4958-b592-a8cb6aab06c5">
+    - Gunakan perintah ln untuk membuat link simbolik dan hard link
+    - ln -s dataku dataku.ini  # Membuat link simbolik
+    - ln dataku dataku.j  # Membuat link hard
+    - ls -l  # Melihat informasi detail tentang file dan link
 
      
 <br>
