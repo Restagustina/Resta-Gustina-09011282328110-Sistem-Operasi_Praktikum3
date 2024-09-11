@@ -85,7 +85,8 @@ NIM : 09011282328110
 6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat melakukan write, read dan execute.
    <img width ="500" alt="4 akses maret" src="https://github.com/user-attachments/assets/ee236a40-08ca-43df-bcf2-d8e7c0cce104">
    
-      #### Penjelasan Opsi chmod :
+   #### Penjelasan Opsi chmod :
+      
           > - u=rwx: Memberikan hak read, write, dan execute kepada user.
           > - g=rwx: Memberikan hak read, write, dan execute kepada grup.
           > - o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
