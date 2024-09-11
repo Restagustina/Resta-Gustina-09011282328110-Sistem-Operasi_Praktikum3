@@ -59,11 +59,12 @@ NIM : 09011282328110
           - lakukan hal yang sama untuk februari dan maret 
 
 <br>
-4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.\
-      - Gunakan perintah chmod dengan opsi :\
-      - g+w: Memberikan hak write kepada grup.\ 
-      - o+w: Memberikan hak write kepada orang lain.
+4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
      <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
+
+      - Gunakan perintah chmod dengan opsi :
+      - g+w: Memberikan hak write kepada grup. 
+      - o+w: Memberikan hak write kepada orang lain.
      
   - Verifikasi Hak Akses gunakan perintah ls -l
     
