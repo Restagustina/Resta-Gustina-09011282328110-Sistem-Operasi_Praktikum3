@@ -29,8 +29,8 @@ NIM : 09011282328110
      <img width ="500" alt="1 ls -l  dev" src="https://github.com/user-attachments/assets/075f4e26-81f7-46bb-81e1-21491d823a8e">
      
     > #### Penjelasan :
-       > - Jalankan perintah `ls -l /dev` untuk menampilkan daftar file dan direktori di dalam folder `/dev/`, termasuk perangkat I/O yang menggunakan character device.
-       > - Perintah ls -l /dev/tty0 untuk melihat informasi detail tentang perangkat /dev/tty0, yang merupakan contoh perangkat I/O yang menggunakan character device.
+        Jalankan perintah `ls -l /dev` untuk menampilkan daftar file dan direktori di dalam folder `/dev/`, termasuk perangkat I/O yang menggunakan character device.
+        Perintah ls -l /dev/tty0 untuk melihat informasi detail tentang perangkat /dev/tty0, yang merupakan contoh perangkat I/O yang menggunakan character device.
 
 <br>
 
