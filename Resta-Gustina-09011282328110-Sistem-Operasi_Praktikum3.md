@@ -112,6 +112,12 @@ februari
    <img width ="500" alt="no 8" src="https://github.com/user-attachments/assets/cf0ab9c0-c7b1-4ccd-a735-23adb2554c15">
 
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
+    #### Penjelasan :
+   - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.\
+   - Nilai default umask pada sistem Linux biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
+  - Ubah Umask :
+   <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
+   - nilai umask 027 berarti bahwa file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
 
      
