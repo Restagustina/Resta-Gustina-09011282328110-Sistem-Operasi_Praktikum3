@@ -106,9 +106,9 @@ NIM : 09011282328110
 
 <br>
 <br>
-9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?\
-   >  Penjelasan :\
-     > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.\
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ? \
+   >  Penjelasan : \
+     > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute. \
      > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
    <br>  
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
