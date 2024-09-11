@@ -39,33 +39,31 @@ NIM : 09011282328110
      <img width ="500" alt="2 Buat sub direktori januari, februari dan maret" src="https://github.com/user-attachments/assets/b962c732-7a3c-42c6-971e-2767f5147428"> 
      
      #### Penjelasan :
-   >
-    Membuat subdirektori januari, februari, dan maret secara bersamaan pada direktori latihan5 gunakan perintah mkdir dengan opsi -p.
+        > Membuat subdirektori januari, februari, dan maret secara bersamaan pada direktori latihan5 gunakan perintah mkdir dengan opsi -p.
 <br>
 
 3. Buatlah file dataku yang berisi nama, nim dan alamat anda pada sub direktori januari dan copy-kan file tersebut ke sub direktori februari dan maret
-     - Buat file dataku berisi nama, nim dan alamat :
+    > - Buat file dataku berisi nama, nim dan alamat :
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
-   - Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
-  > Gunakan perintah cp untuk mengcopy file dataku dari subdirektori januari ke subdirektori februari.
+    > - Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
+       > Gunakan perintah cp untuk mengcopy
     <img width ="500" alt="cp februari dan maret" src="https://github.com/user-attachments/assets/93c8358d-daf0-4fa5-aed3-61a70947a566">
-  
-  > Setelah menjalankan perintah di atas, Anda akan memiliki file dataku di subdirektori januari, februari, dan maret.
 
-             Untuk melihat isi file dataku gunakan'cat':
-             - cd januari
-                cat dataku
-             - lakukan hal yang sama untuk februari dan maret 
+       Untuk melihat isi file dataku gunakan'cat':
+          - cd januari
+            cat dataku
+          - lakukan hal yang sama untuk februari dan maret 
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
 
-     > - Gunakan perintah chmod dengan opsi :
-     > - g+w: Memberikan hak write kepada grup. 
-     > - o+w: Memberikan hak write kepada orang lain.
-     <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
+      - Gunakan perintah chmod dengan opsi :
+      - g+w: Memberikan hak write kepada grup. 
+      - o+w: Memberikan hak write kepada orang lain.
+     
+<img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
 > - Verifikasi Hak Akses gunakan perintah ls -l
     <img width ="500" alt="akses januari rw" src="https://github.com/user-attachments/assets/14f49fdd-2608-4fea-a453-f3886089407c">
@@ -73,13 +71,13 @@ NIM : 09011282328110
 5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.
 
    <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
-     > #### Penjelasan Opsi chmod :
+ #### Penjelasan Opsi chmod :
      > - u=rwx: Memberikan hak read, write, dan execute kepada user.
      > - g=r: Memberikan hak read kepada grup.
      > - o=r: Memberikan hak read kepada orang lain.
      
      > - Verifikasi Hak Akses gunakan perintah ls -l
-           <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
+<img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
 
 6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat melakukan write, read dan execute.
    <img width ="500" alt="4 akses maret" src="https://github.com/user-attachments/assets/ee236a40-08ca-43df-bcf2-d8e7c0cce104">
@@ -99,10 +97,11 @@ NIM : 09011282328110
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
    > #### Penjelasan :
       > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.
-      > - Nilai default umask pada sistem Linux biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
-  - Ubah Umask :
+      > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
+       - Ubah Umask :
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
-     > nilai umask 027 berarti bahwa file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
+
+         nilai umask 027 berarti file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
 10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ?
     
