@@ -54,9 +54,10 @@ NIM : 09011282328110
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
-    > simbol > dan >> memiliki fungsi yang berbeda :
+    > simbol > dan >> memiliki fungsi yang berbeda :\
     > : > digunakan untuk menulis output dari perintah ke sebuah file. Jika file tersebut belum ada, maka perintah akan membuatnya. Jika file sudah ada, maka konten lama file akan dihapus dan digantikan dengan output dari perintah.\
    Contoh : echo "Nama : Resta Gustina" > dataku akan membuat file 'dataku' dengan isi "Nama : Resta Gustina".
+    > 
     > : >> Untuk menambahkan output dari perintah ke akhir file yang sudah ada lalu konten baru akan ditambahkan ke akhir file.\
    Contoh :  echo "Nama : Resta Gustina" >> dataku akan menambahkan "Nama : Resta Gustina" ke akhir file 'dataku' jika sudah ada, atau membuat file baru jika belum ada.
    - Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
