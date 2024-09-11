@@ -73,9 +73,9 @@ NIM : 09011282328110
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write. \
->- Gunakan perintah chmod dengan opsi yang sesuai untuk memberikan hak write kepada grup dan orang lain. \
->- g+w: Memberikan hak write kepada grup. \
->- o+w: Memberikan hak write kepada orang lain. 
+> - Gunakan perintah chmod dengan opsi yang sesuai untuk memberikan hak write kepada grup dan orang lain. \
+> - g+w: Memberikan hak write kepada grup. \
+> - o+w: Memberikan hak write kepada orang lain. 
      <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
   > - Verifikasi Hak Akses gunakan perintah ls -l
@@ -91,7 +91,7 @@ melakukan baik write, read maupun execute, tetapi group dan others hanya bisa re
 > - o=r: Memberikan hak read kepada orang lain.
 
 > - Verifikasi Hak Akses gunakan perintah ls -l
-   <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
+      <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
 
 6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat 
 melakukan write, read dan execute.
@@ -105,13 +105,13 @@ melakukan write, read dan execute.
    > perintah 'rmdir' untuk menghapus direktori kosong atau perintah rm -r untuk menghapus direktori beserta isinya.
    <img width ="500" alt="7 rm directory maret" src="https://github.com/user-attachments/assets/b35c2712-9552-4d04-aafb-a438c2d80682">
 
-9. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat 
+8. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat 
 melakukan read, dan cobalah untuk membuat direktori baru haha pada sub direktori 
 februari
 
    <img width ="500" alt="no 8" src="https://github.com/user-attachments/assets/cf0ab9c0-c7b1-4ccd-a735-23adb2554c15">
 
-10. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
 
 
      
