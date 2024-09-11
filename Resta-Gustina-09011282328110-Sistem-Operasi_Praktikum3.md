@@ -59,9 +59,9 @@ NIM : 09011282328110
           - lakukan hal yang sama untuk februari dan maret 
 
 <br>
-4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
-      - Gunakan perintah chmod dengan opsi :
-      - g+w: Memberikan hak write kepada grup. 
+4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.\
+      - Gunakan perintah chmod dengan opsi :\
+      - g+w: Memberikan hak write kepada grup.\ 
       - o+w: Memberikan hak write kepada orang lain.
      <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
@@ -106,9 +106,9 @@ NIM : 09011282328110
 
 <br>
 <br>
-9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
-   > Penjelasan :
-     > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.
+9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?\
+   >  Penjelasan :\
+     > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.\
      > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
    <br>  
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
