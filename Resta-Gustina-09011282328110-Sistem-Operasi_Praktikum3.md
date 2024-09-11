@@ -28,9 +28,9 @@ NIM : 09011282328110
 1. Lihat peralatan I/O, character device, yang ada pada system komputer
      <img width ="500" alt="1 ls -l  dev" src="https://github.com/user-attachments/assets/075f4e26-81f7-46bb-81e1-21491d823a8e">
      
-    > #### Penjelasan :
-        Jalankan perintah `ls -l /dev` untuk menampilkan daftar file dan direktori di dalam folder `/dev/`, termasuk perangkat I/O yang menggunakan character device.
-        Perintah ls -l /dev/tty0 untuk melihat informasi detail tentang perangkat /dev/tty0, yang merupakan contoh perangkat I/O yang menggunakan character device.
+     #### Penjelasan :
+       - Jalankan perintah `ls -l /dev` untuk menampilkan daftar file dan direktori di dalam folder `/dev/`, termasuk perangkat I/O yang menggunakan character device.
+       - Perintah ls -l /dev/tty0 untuk melihat informasi detail tentang perangkat /dev/tty0, yang merupakan contoh perangkat I/O yang menggunakan character device.
 
 <br>
 
@@ -47,22 +47,16 @@ NIM : 09011282328110
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
-    #### simbol > dan >> memiliki fungsi yang berbeda :\
-    > : > digunakan untuk menulis output dari perintah ke sebuah file. Jika file tersebut belum ada, maka perintah akan membuatnya. Jika file sudah ada, maka konten lama file akan dihapus dan digantikan dengan output dari perintah.\
-   Contoh : echo "Nama : Resta Gustina" > dataku akan membuat file 'dataku' dengan isi "Nama : Resta Gustina".
-    
-    > : >> Untuk menambahkan output dari perintah ke akhir file yang sudah ada lalu konten baru akan ditambahkan ke akhir file.\
-   Contoh :  echo "Nama : Resta Gustina" >> dataku akan menambahkan "Nama : Resta Gustina" ke akhir file 'dataku' jika sudah ada, atau membuat file baru jika belum ada.
    - Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
   > Gunakan perintah cp untuk mengcopy file dataku dari subdirektori januari ke subdirektori februari.
     <img width ="500" alt="cp februari dan maret" src="https://github.com/user-attachments/assets/93c8358d-daf0-4fa5-aed3-61a70947a566">
   
   > Setelah menjalankan perintah di atas, Anda akan memiliki file dataku di subdirektori januari, februari, dan maret.
 
-          > #### Untuk melihat isi file dataku gunakan'cat':
-            > - cd januari
+             Untuk melihat isi file dataku gunakan'cat':
+             - cd januari
                 cat dataku
-            > - lakukan hal yang sama untuk februari dan maret 
+             - lakukan hal yang sama untuk februari dan maret 
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
@@ -93,7 +87,7 @@ NIM : 09011282328110
      > - g=rwx: Memberikan hak read, write, dan execute kepada grup.
      > - o=rwx: Memberikan hak read, write, dan execute kepada orang lain.
 
-7. Hapuslah direktori maret/
+7. Hapuslah direktori maret
    > perintah 'rmdir' untuk menghapus direktori kosong atau perintah rm -r untuk menghapus direktori beserta isinya.
    <img width ="500" alt="7 rm directory maret" src="https://github.com/user-attachments/assets/b35c2712-9552-4d04-aafb-a438c2d80682">
 
@@ -103,11 +97,11 @@ NIM : 09011282328110
 
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
    > #### Penjelasan :
- > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.\
- > - Nilai default umask pada sistem Linux biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
+      > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.
+      > - Nilai default umask pada sistem Linux biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
   - Ubah Umask :
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
-   > nilai umask 027 berarti bahwa file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
+     > nilai umask 027 berarti bahwa file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
 10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ?
     
