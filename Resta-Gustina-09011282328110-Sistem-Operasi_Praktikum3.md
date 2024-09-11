@@ -104,6 +104,7 @@ NIM : 09011282328110
       > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
        - Ubah Umask :
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
+   
      >
    nilai umask 027 berarti file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
