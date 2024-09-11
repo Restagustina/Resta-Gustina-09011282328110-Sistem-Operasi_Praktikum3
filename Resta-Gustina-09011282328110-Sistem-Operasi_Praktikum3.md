@@ -68,8 +68,9 @@ NIM : 09011282328110
     <img width ="500" alt="akses januari rw" src="https://github.com/user-attachments/assets/14f49fdd-2608-4fea-a453-f3886089407c">
 
 <br>
-5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.\
+5. Ubahlah ijin akses file dataku pada sub direktori februari sehingga user dapat melakukan baik write, read maupun execute, tetapi group dan others hanya bisa read dan execute.
 
+   
    <img width ="500" alt="4 akses februari" src="https://github.com/user-attachments/assets/00e013a9-bc64-409a-a611-27c0e1899eca">
    
   #### Penjelasan Opsi chmod :
@@ -80,6 +81,7 @@ NIM : 09011282328110
    > - Verifikasi Hak Akses gunakan perintah ls -l
 <img width ="500" alt="akses februari rwx" src="https://github.com/user-attachments/assets/a70fd82e-fc46-4f29-8751-a105acc64d48">
 
+<br>
 <br>
 6. Ubahlah ijin akses file dataku pada sub direktori maret sehingga semua dapat melakukan write, read dan execute.
    <img width ="500" alt="4 akses maret" src="https://github.com/user-attachments/assets/ee236a40-08ca-43df-bcf2-d8e7c0cce104">
@@ -95,15 +97,18 @@ NIM : 09011282328110
    <img width ="500" alt="7 rm directory maret" src="https://github.com/user-attachments/assets/b35c2712-9552-4d04-aafb-a438c2d80682">
 
 <br>
-8. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat melakukan read, dan cobalah untuk membuat direktori baru haha pada sub direktori februari
+<br>
+8. Ubahkan kepemilikan sub direktori februari sehingga user dan group hanya dapat melakukan read, dan cobalah untuk membuat direktori baru haha pada sub direktori februari 
 
    <img width ="500" alt="no 8" src="https://github.com/user-attachments/assets/cf0ab9c0-c7b1-4ccd-a735-23adb2554c15">
 
+<br>
 <br>
 9. Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ?
    > Penjelasan :
      > - Umask adalah nilai yang menetapkan izin akses default untuk file dan direktori baru di Linux, seperti read, write, dan execute.
      > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
+     
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
    
      > nilai umask 027 berarti file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
