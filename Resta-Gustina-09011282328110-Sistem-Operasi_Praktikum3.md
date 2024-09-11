@@ -43,12 +43,12 @@ NIM : 09011282328110
 <br>
 
 3. Buatlah file dataku yang berisi nama, nim dan alamat anda pada sub direktori januari dan copy-kan file tersebut ke sub direktori februari dan maret
-    > - Buat file dataku berisi nama, nim dan alamat :
+    >  Buat file dataku berisi nama, nim dan alamat :
      
    <img width ="500" alt="3 buat dataku nama nim" src="https://github.com/user-attachments/assets/a59b82f0-e25a-4061-837d-e29daa1994e9">
 
-    > - Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
-     -      Gunakan perintah cp untuk mengcopy
+    >  Copy file 'dataku' dari subdirectori 'januari' ke subdirectori 'februari' dan 'maret' :
+    > Gunakan perintah cp untuk mengcopy
     <img width ="500" alt="cp februari dan maret" src="https://github.com/user-attachments/assets/93c8358d-daf0-4fa5-aed3-61a70947a566">
 
        Untuk melihat isi file dataku gunakan'cat':
@@ -58,6 +58,7 @@ NIM : 09011282328110
 
 <br>
 4. Ubahlah ijin akses file dataku pada sub direktori januari sehingga group dan others dapat melakukan write.
+     >
 
       - Gunakan perintah chmod dengan opsi :
       - g+w: Memberikan hak write kepada grup. 
@@ -65,7 +66,8 @@ NIM : 09011282328110
      
    <img width ="500" alt="4 akses januari" src="https://github.com/user-attachments/assets/c95cdbdd-4d49-4584-8b33-b21e02dc2722">
      
-> - Verifikasi Hak Akses gunakan perintah ls -l
+  - Verifikasi Hak Akses gunakan perintah ls -l
+    
     <img width ="500" alt="akses januari rw" src="https://github.com/user-attachments/assets/14f49fdd-2608-4fea-a453-f3886089407c">
 
 
@@ -102,8 +104,8 @@ NIM : 09011282328110
       > - Nilai default umask biasanya adalah 022 yaitu file dan direktori baru yang dibuat akan memiliki hak read dan write untuk user dan grup, tetapi tidak memiliki hak read atau write untuk orang lain.
        - Ubah Umask :
    <img width ="500" alt="9" src="https://github.com/user-attachments/assets/8a9e37d0-9ad8-4bf5-8d32-cad19e400068">
-
-         nilai umask 027 berarti file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
+     >
+   nilai umask 027 berarti file dan direktori baru yang dibuat akan memiliki hak read, write, dan execute untuk user, tetapi hanya memiliki hak read dan execute untuk grup dan orang lain.
 
 10. Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ?
     
