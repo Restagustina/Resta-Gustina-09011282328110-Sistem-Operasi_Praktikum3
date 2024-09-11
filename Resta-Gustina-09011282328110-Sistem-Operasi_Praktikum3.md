@@ -23,6 +23,8 @@ NIM : 09011282328110
 *2024*
 <br>
 <br>
+<br>
+<br>
 </div>
 
 1. Lihat peralatan I/O, character device, yang ada pada system komputer
